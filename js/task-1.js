@@ -72,15 +72,55 @@
 // напишіть цикл, який виводить у консоль числа
 // від max до min за спаданням
 // додайте усі парні числа від min до max
-const max = 50;
-const min = 23;
 
-function logNumbers(max, min) {
-  for (let i = max; i >= min; i -= 1) {
-    const element = array[index];
-    if (i % 2 === 0) {
-      
-    }
-  }
-}
-console.log(logNumbers(max, min));
+// const max = 50;
+// const min = 23;
+
+// function logNumbers(max, min) {
+//   let sum = 0;
+//   for (let i = max; i >= min; i -= 1) {
+//     if (i % 2 === 0) {
+//       sum += i;
+//     }
+//   }
+//   return sum;
+// }
+// console.log(logNumbers(max, min));
+
+// напишіть код, який запитуватиме
+// логін за допомогою prompt і логувати результат
+// в консоль браузера
+
+// якщо відвідувач вводить "Адмін",
+// то prompt запитує пароль.
+// якщо нічого не ввели або натиснули клавішу esc
+// вивести строку "Скасовано"
+// інакше вивести рядок "Я вас не знаю"
+
+// пароль перевіряти так:
+// якщо введено пароль "Я головний",
+// то вивести рядок "Добрий день!"
+// інакше виводити рядок "Невірний пароль!"
+
+// const login = prompt('Введіть логін');
+// console.log(login);
+// function checkLoginPassword(login) {
+//   if (login === 'Адмін') {
+//     const password = prompt('Введіть свій пароль');
+//     if (password === 'Я головний') {
+//       alert('Добрий день');
+//       }
+//       else if (!password) {
+//       alert('Скасовано');
+//       } else {
+//       alert('Невірний пароль!');
+//     }
+
+//   } else if (!login) {
+//     // } else if (login === '' || login === null) {
+//     alert('Скасовано');
+//   } else {
+//     alert('Я вас не знаю');
+//   }
+// }
+// checkLoginPassword(login);
